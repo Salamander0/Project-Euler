@@ -21,7 +21,7 @@ int main(void)
     mpz_init(result);
     mpz_ui_pow_ui(result, 2, 1000);
     mpz_get_str(number, 10, result);
-    //printf("%s\n", number);
+    printf("%s\n", number);
     mpz_clear(result);
     sumnum(number);
     return 0;
